@@ -4,7 +4,7 @@ def reverse_each_word(rev)
   # end
   arr = []
   rev.split.collect do |x|
-   arr << x.reverse
+   arr << x.reverse.split
  end
  arr
 end
