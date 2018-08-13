@@ -4,6 +4,6 @@ def reverse_each_word(rev)
   end
   # arr = []
    rev.split.collect do |x|
-    x.reverse.split.flatt
+    x.reverse.split.flatten
    end
 end
