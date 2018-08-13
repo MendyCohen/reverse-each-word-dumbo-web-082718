@@ -3,8 +3,8 @@ def reverse_each_word(rev)
     x.reverse
   end
   # arr = []
-  # rev.split.collect do |x|
-  #   x.reverse << arr
-  # end
+   rev.split.collect do |x|
+    x.reverse.join(', ')
+   end
   # #arr
 end
